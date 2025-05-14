@@ -29,6 +29,9 @@
             <p>Тренировки поо кикбоксингу, боксу и ММА для всех уровней подготовки</p>
             <a href="#contacts" class="btn">Записаться</a>
         </div>
+        <div class="next-training">
+          <p>Ближайшая тренировка через: <span id="countdown">00:00:00</span></p>
+        </div>
     </section>
 
     <section id="about" class="about">
@@ -60,7 +63,7 @@
         <div class="trainer-list">
           <div class="trainer">
             <img src="img/trainer1.jpg" alt="Иван Петров">
-            <h3>Иван Петров</h3>
+            <h3>Максим Коркодел</h3>
             <p class="specialty">Кикбоксинг</p>
             <p class="bio">Мастер спорта, 10 лет опыта, воспитанник сборной России.</p>
             <div class="schedule">
@@ -71,7 +74,7 @@
       
           <div class="trainer">
             <img src="img/trainer2.jpg" alt="Алексей Смирнов">
-            <h3>Алексей Смирнов</h3>
+            <h3>Алимирза Арутурович</h3>
             <p class="specialty">Бокс</p>
             <p class="bio">Призёр международных турниров, тренирует с 2012 года.</p>
             <div class="schedule">
@@ -137,6 +140,20 @@
             <p>+7-(999)-999-99-99</p>
             <p>Email: kolizey@gmail.com</p>
         </div>
+        <div class="contact-form">
+  <h3>Оставить заявку</h3>
+  <form id="signup-form">
+    <input type="text" placeholder="Ваше имя" required>
+    <input type="tel" placeholder="Телефон" pattern="\+?[0-9\s\-]+" required>
+    <select required>
+      <option value="" disabled selected>Выберите направление</option>
+      <option>Кикбоксинг</option>
+      <option>Бокс</option>
+      <option>ММА</option>
+    </select>
+    <button type="submit" class="btn">Отправить</button>
+  </form>
+</div>
     </section>
     <a href="https://wa.me/+79898781897" target="_blank">
       <button style="background-color: #25d366; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px;">
